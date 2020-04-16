@@ -2,14 +2,14 @@
 ID selector can only be used once*/
 
 body {
-  background-image: url("coding.jpg");
+  background-color: #00AEB6;
   background-size: cover;
 }
 
 h2 {
-  color: #AA4139;
+  color: white;
   text-align: center;
-  border: 5px solid rgb(255, 176, 170);
+  border: 5px solid black;
   cursor: pointer;
 }
 
@@ -18,7 +18,7 @@ p {
   font-style: italic;
   font-weight: bold;
   font-size: 100%;
-  color: grey;
+  color: black;
   font-family: "Times New Roman", Georgia;
 }
 
