@@ -1,8 +1,8 @@
-/*selector {
-  property: value;
-}*/
+/*Class selector can be reused
+ID selector can only be used once*/
+
 body {
-  background-image: url("city.jpg");
+  background-image: url("coding.jpg");
   background-size: cover;
 }
 
@@ -14,11 +14,15 @@ h2 {
 }
 
 p {
-  color: pink;
+  color: #cccc;
 }
 
 li {
   list-style: none;
   color: white;
   display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
 }
