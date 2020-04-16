@@ -14,7 +14,12 @@ h2 {
 }
 
 p {
-  color: #cccc;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  color: grey;
+  font-family: "Times New Roman", Georgia;
 }
 
 li {
