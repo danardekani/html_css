@@ -8,12 +8,17 @@ img {
     width: 450px;
     height: 300px;
     margin: 10px;
+    transition: all 1s;
   }
 
-  h1 {
-      font-family: fantasy;
-      font-size: 3em;
-      border-bottom: 2px solid pink ;
-      width: 400px;
-      text-align: center;
-  }
+img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink ;
+    width: 400px;
+    text-align: center;
+}
